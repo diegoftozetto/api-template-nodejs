@@ -1,20 +1,19 @@
-----
 ## Instalar Recursos
 
 **NodeJS:**
-https://nodejs.org/en/
+<p>https://nodejs.org/en/</p>
 
 **MongoDB:**
-https://www.mongodb.com/try/download/community
+<p>https://www.mongodb.com/try/download/community</p>
 
 **Nodemon**
 ```sh
 $ npm install -g nodemon
 ```
-----
+
 ## Instalar Dependências
 
-**Instalar Express**
+**Instalar express**
 ```sh
 $ npm install --save express
 ```
@@ -22,17 +21,20 @@ $ npm install --save express
 ```sh
 $ npm install --save mongoose
 ```
-**Instalar Body-Parse**
+**Instalar body-parse**
 ```sh
 $ npm install --save body-parse
 ```
-**Instalar Cors**
+**Instalar bcryptjs**
+```sh
+$ npm install --save bcryptjs
+```
+**Instalar cors**
 ```sh
 $ npm install --save cors
 ```
-----
+
 ## Como Rodar
 
-1. Criar database com o nome de 'db-template'.
-
+1. Criar database com o nome de 'db-template' no MongoDB.
 2. Na pasta principal do projeto, executar o comando 'nodemon app.js'.
