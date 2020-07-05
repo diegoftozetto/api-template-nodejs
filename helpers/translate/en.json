@@ -1,0 +1,9 @@
+{
+    "msgErrorUserAdd": "Failed to process request. Error adding user to Database.",
+    "msgErrorUserAddEmail": "Failed to process request. Error adding user to Database, email already registered.",
+    "msgErrorUserDelete": "Failed to process request. Error removing user in Database.",
+    "msgErrorUserSearch": "Falha ao processar requisição. Erro ao buscar usuários no Database.",
+    "msgInvalidParameters": "Failed to process request. Error fetching users from the Database.",
+    "msgOkUserAdd": "User added successfully.",
+    "msgOkUserDelete": "User removed successfully."
+}

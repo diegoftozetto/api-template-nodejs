@@ -1,0 +1,9 @@
+{
+    "msgErrorUserAdd": "Falha ao processar requisição. Erro ao adicionar usuário no Database.",
+    "msgErrorUserAddEmail": "Falha ao processar requisição. Erro ao adicionar usuário no Database, email já cadastrado.",
+    "msgErrorUserDelete": "Falha ao processar requisição. Erro ao remover usuário no Database.",
+    "msgErrorUserSearch": "Falha ao processar requisição. Erro ao buscar usuários no Database.",
+    "msgInvalidParameters": "Falha ao processar requisição. Parâmetros Inválidos.",
+    "msgOkUserAdd": "Usuário adicionado com sucesso.",
+    "msgOkUserDelete": "Usuário adicionado com sucesso."
+}
