@@ -53,7 +53,7 @@ router.post('/', (req, res) => {
                         });
                     });
                 } else {
-                    res.status(500).json({"message": strings.msgErrorUserAddEmail});
+                    res.status(400).json({"message": strings.msgErrorUserAddEmail});
                 }
             }).catch((e) => {
                 res.status(500).json({"message": strings.msgErrorUserAdd});
