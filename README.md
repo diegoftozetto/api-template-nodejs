@@ -1,6 +1,6 @@
 # api-template-nodejs
 
-O intutito deste projeto é apresentar os mecanismos para elaboração de uma API em NodeJS.
+O intuito deste projeto é apresentar os mecanismos para elaboração de uma API em NodeJS.
 
 ## Instalar Recursos
 
