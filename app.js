@@ -10,6 +10,7 @@ const cors = require('cors');
 
 //Rotas
 const user = require("./routes/user");
+const api_docs = require("./routes/api-docs");
 
 //app
 const app = express();
@@ -38,6 +39,7 @@ app.use(cors());
 // Rotas                                                  //
 ////////////////////////////////////////////////////////////
 app.use("/users", user);
+app.use("/api-docs", api_docs);
 
 ////////////////////////////////////////////////////////////
 // Outros                                                 //
