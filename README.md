@@ -63,52 +63,6 @@ Para rodar o projeto atual, após a instalação dos recursos e depedências bas
 
 ## Sobre a API
 
-`POST/users`
+Após rodar o projeto, pode-se verificar a documentação da API (Swagger) por meio da URL abaixo:
 
-Chamado para criar um novo usuário.
-
-```json
-{
-  "name": "username",
-  "email": "user@email.com",
-  "password": "userpassword"
-}
-```
-
-**Onde:**
-
-`id` - ID do usuário. Este é gerado automaticamente.
-
-`name` - Nome do usuário.
-
-`password` - Senha do usuário.
-
-Retorna JSON com uma mensagem, conforme o status:
-
-* 201 - Created: Usuário adicionado com sucesso.
-* 400 - Bad Request: Falha ao processar requisição. Parâmetro(s) inválido(s). | Falha ao processar requisição. Parâmetro inválido, email já cadastrado.
-* 500 - Server Errors: Falha ao processar requisição. Erro ao adicionar usuário no Database.
-
-```json
-{
-  "message": "Mensagem_do_Status"
-}
-```
-
-`GET/users`
-
-Chamado para retornar todos os usuários cadastrados.
-
-Retorna um JSON, conforme o status:
-
-* 200 - OK: JSON com os usuários.
-* 500 - Server Errors: Falha ao processar requisição. Erro ao buscar usuários no Database.
-
-`DELETE/users/{id}`
-
-Chamado para remover um usuário específico do banco de dados.
-
-Retorna JSON com uma mensagem, conforme o status:
-
-* 200 - OK: Usuário removido com sucesso.
-* 500 - Server Errors: Falha ao processar requisição. Erro ao remover usuário no Database.
+http://localhost:5000/api-docs/
